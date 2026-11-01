@@ -1,0 +1,13 @@
+name: E08 queue negative
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: e08-queue
+  queue: invalid-e08-value
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo 'E08 queue input'
