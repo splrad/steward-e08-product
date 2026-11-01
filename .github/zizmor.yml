@@ -1,3 +1,0 @@
-rules:
-  dangerous-triggers:
-    disable: true
