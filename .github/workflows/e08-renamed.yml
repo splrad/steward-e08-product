@@ -1,0 +1,22 @@
+name: E08 workflow adaptation
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: e08-adaptation
+  cancel-in-progress: false
+  queue: max
+jobs:
+  prepare:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo 'E08 prepare'
+  verify:
+    needs: prepare
+    strategy:
+      matrix:
+        sample: [one, two]
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo 'E08 valid matrix input'
