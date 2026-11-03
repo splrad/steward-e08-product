@@ -4,6 +4,7 @@ import hashlib
 import json
 import os
 from pathlib import Path
+import shutil
 import subprocess
 import sys
 import tomllib
@@ -41,13 +42,19 @@ def main():
     run(args.uv, "pip", "sync", "--no-config", "--python", str(python),
         "--default-index", "https://pypi.org/simple", "--require-hashes", "--only-binary", ":all:",
         str(source / "requirements-build.txt"))
+    distributions = work / "dist"
     run(args.uv, "build", "--no-config", "--python", str(python), "--offline",
-        "--no-sources", "--no-build-isolation", "--out-dir", str(out), str(source))
+        "--no-sources", "--no-build-isolation", "--out-dir", str(distributions), str(source))
     project = tomllib.loads((source / "pyproject.toml").read_text(encoding="utf-8"))["project"]
     version = project["version"]
     expected = {f"splrad_e08_product-{version}-py3-none-any.whl", f"splrad_e08_product-{version}.tar.gz"}
-    if {p.name for p in out.iterdir()} != expected:
+    # uv owns its output-directory .gitignore; publish only the finite assets.
+    if {p.name for p in distributions.iterdir()} - {".gitignore"} != expected:
         raise ValueError("unexpected distribution set")
+    for name in sorted(expected):
+        if not (distributions / name).is_file() or (distributions / name).is_symlink():
+            raise ValueError("distribution is not a regular file")
+        shutil.copyfile(distributions / name, out / name)
     evidence = {"scope": "local-build-only", "version": version,
                 "buildLockSha256": hashlib.sha256((source / "requirements-build.txt").read_bytes()).hexdigest(),
                 "artifacts": [{"name": p.name, "bytes": p.stat().st_size,
