@@ -39,7 +39,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           repository: splrad/steward-e08-controller
-          ref: 0f2b081e50f5b2ddcb78518f213b7a99f8a0f21e
+          ref: 7af90905aca445758da5b95948b2dfdfa2b5c911
           path: controller
           persist-credentials: false
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -117,7 +117,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           repository: splrad/steward-e08-controller
-          ref: 0f2b081e50f5b2ddcb78518f213b7a99f8a0f21e
+          ref: 7af90905aca445758da5b95948b2dfdfa2b5c911
           path: controller
           persist-credentials: false
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -222,7 +222,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix: ${{ fromJSON(needs.admit.outputs.units) }}
-    uses: splrad/steward-e08-controller/.github/workflows/product-release.yml@0f2b081e50f5b2ddcb78518f213b7a99f8a0f21e
+    uses: splrad/steward-e08-controller/.github/workflows/product-release.yml@7af90905aca445758da5b95948b2dfdfa2b5c911
     with:
       record: ${{ needs.admit.outputs.record }}
       unit: ${{ matrix.unit }}
@@ -249,7 +249,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           repository: splrad/steward-e08-controller
-          ref: 0f2b081e50f5b2ddcb78518f213b7a99f8a0f21e
+          ref: 7af90905aca445758da5b95948b2dfdfa2b5c911
           path: controller
           persist-credentials: false
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
