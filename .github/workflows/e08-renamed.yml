@@ -8,15 +8,5 @@ concurrency:
   cancel-in-progress: false
   queue: max
 jobs:
-  lock-probe:
-    runs-on: ubuntu-24.04
-    timeout-minutes: 5
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
-        with:
-          ref: ${{ github.workflow_sha }}
-          persist-credentials: false
-      - name: Native local action from the checked out source
-        uses: ./.github/actions/e08-local
-      - name: Native lock acceptance
-        run: echo 'E08_LOCK_PROBE_COMPLETED'
+  shared:
+    uses: splrad/steward-e08-controller/.github/workflows/e08-locked-reusable.yml@dfeae1b54f03262ac4744373f5c52e36d180f65d
