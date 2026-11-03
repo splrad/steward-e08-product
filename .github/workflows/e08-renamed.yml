@@ -8,15 +8,15 @@ concurrency:
   cancel-in-progress: false
   queue: max
 jobs:
-  prepare:
+  lock-probe:
     runs-on: ubuntu-24.04
+    timeout-minutes: 5
     steps:
-      - run: echo 'E08 prepare'
-  verify:
-    needs: prepare
-    strategy:
-      matrix:
-        sample: [one, two]
-    runs-on: ubuntu-24.04
-    steps:
-      - run: echo 'E08 valid matrix input'
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: ${{ github.workflow_sha }}
+          persist-credentials: false
+      - name: Native local action from the checked out source
+        uses: ./.github/actions/e08-local
+      - name: Native lock acceptance
+        run: echo 'E08_LOCK_PROBE_COMPLETED'

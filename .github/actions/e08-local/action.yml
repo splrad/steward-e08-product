@@ -1,0 +1,8 @@
+name: E08 local action
+description: Fixed local-action semantics fixture
+runs:
+  using: composite
+  steps:
+    - name: Exact checkout local action
+      shell: bash
+      run: echo 'E08_LOCAL_ACTION_FROM_CHECKOUT'
