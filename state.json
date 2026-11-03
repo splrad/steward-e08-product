@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 3,
+  "repositoryId": 1440689534,
+  "defaultBranch": "main",
+  "revision": 0,
+  "releaseAdoption": {
+    "sourceSha": "c14c0500b654075db1801176128b251e83e36b5d",
+    "prNumber": 4
+  },
+  "lastObservedDefaultSha": "c14c0500b654075db1801176128b251e83e36b5d",
+  "lastCompletedCycleId": null,
+  "activeCycleId": null,
+  "candidate": null,
+  "nextCheckAt": null,
+  "lastProgressAt": null,
+  "lastErrorCode": null
+}
