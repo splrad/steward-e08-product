@@ -46,7 +46,12 @@ def main():
     run(args.uv, "build", "--no-config", "--python", str(python), "--offline",
         "--no-sources", "--no-build-isolation", "--out-dir", str(distributions), str(source))
     project = tomllib.loads((source / "pyproject.toml").read_text(encoding="utf-8"))["project"]
-    version = project["version"]
+    source_version = project["version"]
+    # Release Please writes the public version; the locked packaging library owns
+    # native PEP 440 normalization used by Hatchling's wheel/sdist filenames.
+    version = subprocess.check_output(
+        [str(python), "-I", "-c", "from packaging.version import Version; import sys; print(Version(sys.argv[1]))", source_version],
+        cwd=source, env=env, text=True).strip()
     expected = {f"splrad_e08_product-{version}-py3-none-any.whl", f"splrad_e08_product-{version}.tar.gz"}
     # uv owns its output-directory .gitignore; publish only the finite assets.
     if {p.name for p in distributions.iterdir()} - {".gitignore"} != expected:
@@ -55,7 +60,7 @@ def main():
         if not (distributions / name).is_file() or (distributions / name).is_symlink():
             raise ValueError("distribution is not a regular file")
         shutil.copyfile(distributions / name, out / name)
-    evidence = {"scope": "local-build-only", "version": version,
+    evidence = {"scope": "isolated-product-build", "sourceVersion": source_version, "version": version,
                 "buildLockSha256": hashlib.sha256((source / "requirements-build.txt").read_bytes()).hexdigest(),
                 "artifacts": [{"name": p.name, "bytes": p.stat().st_size,
                                "sha256": hashlib.sha256(p.read_bytes()).hexdigest()}
