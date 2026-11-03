@@ -9,4 +9,4 @@ concurrency:
   queue: max
 jobs:
   shared:
-    uses: splrad/steward-e08-controller/.github/workflows/e08-locked-reusable.yml@dfeae1b54f03262ac4744373f5c52e36d180f65d
+    uses: splrad/steward-e08-controller/.github/workflows/e08-locked-reusable.yml@4e94dae15726cf4ba96ef62eb5234a52a6b70aee
