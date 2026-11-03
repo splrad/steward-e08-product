@@ -1,4 +1,4 @@
-"""Build the isolated Python product with the source hash lock and no build-time network."""
+"""Provision hash-locked build dependencies, then build distributions offline."""
 import argparse
 import hashlib
 import json
@@ -56,6 +56,7 @@ def main():
     # uv owns its output-directory .gitignore; publish only the finite assets.
     if {p.name for p in distributions.iterdir()} - {".gitignore"} != expected:
         raise ValueError("unexpected distribution set")
+    run(str(python), "-I", "-m", "twine", "check", *[str(distributions / name) for name in sorted(expected)])
     for name in sorted(expected):
         if not (distributions / name).is_file() or (distributions / name).is_symlink():
             raise ValueError("distribution is not a regular file")
