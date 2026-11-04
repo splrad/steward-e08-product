@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/splrad/steward-e08-product/compare/v0.1.1...v0.1.2) (2026-11-04)
+
+
+### Bug Fixes
+
+* adopt controller release dependencies ([06397e6](https://github.com/splrad/steward-e08-product/commit/06397e6063d28d2174624175abda0707bda6434f))
+
 ## [0.1.1](https://github.com/splrad/steward-e08-product/compare/85573ec5c163a94961f798295fdcd415204987f0...v0.1.1) (2026-11-04)
 
 
