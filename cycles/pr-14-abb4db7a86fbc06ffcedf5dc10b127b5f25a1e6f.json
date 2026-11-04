@@ -10,9 +10,46 @@
       "version": "0.1.4",
       "tag": "v0.1.4",
       "releaseId": null,
-      "assets": [],
-      "notesDigest": null,
-      "manifestDigest": null
+      "assets": [
+        {
+          "id": "metadata-sha256sums",
+          "path": "SHA256SUMS",
+          "size": 459,
+          "sha256": "c32d1712c207365aecd422f99a570980df10dbbc28110cd11b9e4fb0a4104347"
+        },
+        {
+          "id": "metadata-artifact-manifest-json",
+          "path": "artifact-manifest.json",
+          "size": 1935,
+          "sha256": "b64ee69b599e266c1657bd93a85386701a0ceb8c2c3381dd8a70f23600247905"
+        },
+        {
+          "id": "metadata-release-notes-md",
+          "path": "release-notes.md",
+          "size": 1809,
+          "sha256": "63a859971799d00f6ca74b40a898356d7b918b8ed9a7961bdf28d98d211f6c1b"
+        },
+        {
+          "id": "metadata-sbom-spdx-json",
+          "path": "sbom.spdx.json",
+          "size": 316503,
+          "sha256": "643329e19505bc1921037203536c34712cd37897370fef24c3c846fd9111be8b"
+        },
+        {
+          "id": "wheel",
+          "path": "splrad_e08_product-0.1.4-py3-none-any.whl",
+          "size": 1654,
+          "sha256": "afbdcd0f2ef2fa9ca45ba6e73517206c904e726605499699d5d1f255159177cd"
+        },
+        {
+          "id": "sdist",
+          "path": "splrad_e08_product-0.1.4.tar.gz",
+          "size": 17841,
+          "sha256": "4bdb92798d03879e3fe5a96f3757de306171f51c3096de97f93c73ab820a959e"
+        }
+      ],
+      "notesDigest": "63a859971799d00f6ca74b40a898356d7b918b8ed9a7961bdf28d98d211f6c1b",
+      "manifestDigest": "b64ee69b599e266c1657bd93a85386701a0ceb8c2c3381dd8a70f23600247905"
     }
   ],
   "requiredChannels": [],
