@@ -16,7 +16,31 @@
     }
   ],
   "requiredChannels": [],
-  "dispatches": [],
+  "dispatches": [
+    {
+      "requestKey": "7e7d150a848f98b44e34f8ae3abdd78b1d2317f1e5f7cfb73ee48bd85952b6e5",
+      "operationKey": "3ca80974037aed1f2419a81a9a48f43239ebc5f40c06e4309f3cb06bf88f22f0",
+      "purpose": "build",
+      "workflowId": 406050667,
+      "ref": "steward/build/pr-12-047b30c1986625766a55725a9d12210900432202",
+      "sourceSha": "047b30c1986625766a55725a9d12210900432202",
+      "targetKey": "[2,406050667,\"steward/build/pr-12-047b30c1986625766a55725a9d12210900432202\",\"047b30c1986625766a55725a9d12210900432202\",\"047b30c1986625766a55725a9d12210900432202\",\"build\",\"build\",[[\"python\",\"0.1.3\"]]]",
+      "inputs": {
+        "cycle_id": "pr-12-047b30c1986625766a55725a9d12210900432202",
+        "operation_key": "3ca80974037aed1f2419a81a9a48f43239ebc5f40c06e4309f3cb06bf88f22f0",
+        "source_sha": "047b30c1986625766a55725a9d12210900432202",
+        "controller_sha": "300d22511155cbaea285b0853a64301db7dc1aaf"
+      },
+      "inputDigest": "88787ed4c3681cba7ad74ce51e2b602e2cb70da263135dbd74041e091d09a020",
+      "executionSha": "047b30c1986625766a55725a9d12210900432202",
+      "sentAt": "2026-11-04T20:50:35.000Z",
+      "searchWindows": [],
+      "canonicalRunId": null,
+      "nativeResponseEvidencePath": null,
+      "continuationOfRunId": null,
+      "retryLimitEvidencePath": null
+    }
+  ],
   "publications": [],
   "channelFacts": [],
   "executionEvidence": [],
