@@ -2,7 +2,7 @@
   "schemaVersion": 3,
   "repositoryId": 1440689534,
   "defaultBranch": "main",
-  "revision": 36,
+  "revision": 37,
   "releaseAdoption": {
     "sourceSha": "c14c0500b654075db1801176128b251e83e36b5d",
     "prNumber": 4
@@ -10,8 +10,20 @@
   "lastObservedDefaultSha": "886e6f432d46b618efc98bf2cdbbf006769c0a77",
   "lastCompletedCycleId": null,
   "activeCycleId": "pr-8-30df59daefed7b07f61962d432f0ce377a526900",
-  "candidate": null,
+  "candidate": {
+    "id": "256991bd02923402e6709137a231ec228b8bbacc8c2bc192636ab33ef88fa5a8",
+    "prNumber": null,
+    "branch": "steward/release-candidate",
+    "baseSha": "06397e6063d28d2174624175abda0707bda6434f",
+    "generatedSnapshotPath": null,
+    "publishedHead": null,
+    "statusCommentId": null,
+    "contentGenerationDigest": "85e835983a2d1eaef98901602ebc90dc4358da3fd6bd879534830618d5c49333",
+    "adoptionOverride": null,
+    "observedLabelEventIds": [],
+    "pendingWrite": null
+  },
   "nextCheckAt": null,
-  "lastProgressAt": "2026-11-04T18:52:49.828Z",
+  "lastProgressAt": "2026-11-04T19:58:31.531Z",
   "lastErrorCode": null
 }
