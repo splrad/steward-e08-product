@@ -55,7 +55,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           repository: splrad/steward-e08-controller
-          ref: 7af90905aca445758da5b95948b2dfdfa2b5c911
+          ref: cdc31362422a67eac077b7089277ad179d376a9c
           path: controller
           persist-credentials: false
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -102,7 +102,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           repository: splrad/steward-e08-controller
-          ref: 7af90905aca445758da5b95948b2dfdfa2b5c911
+          ref: cdc31362422a67eac077b7089277ad179d376a9c
           path: controller
           persist-credentials: false
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -172,7 +172,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           repository: splrad/steward-e08-controller
-          ref: 7af90905aca445758da5b95948b2dfdfa2b5c911
+          ref: cdc31362422a67eac077b7089277ad179d376a9c
           path: controller
           persist-credentials: false
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -307,7 +307,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           repository: splrad/steward-e08-controller
-          ref: 7af90905aca445758da5b95948b2dfdfa2b5c911
+          ref: cdc31362422a67eac077b7089277ad179d376a9c
           path: controller
           persist-credentials: false
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -453,7 +453,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           repository: splrad/steward-e08-controller
-          ref: 7af90905aca445758da5b95948b2dfdfa2b5c911
+          ref: cdc31362422a67eac077b7089277ad179d376a9c
           path: controller
           persist-credentials: false
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -613,7 +613,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           repository: splrad/steward-e08-controller
-          ref: 7af90905aca445758da5b95948b2dfdfa2b5c911
+          ref: cdc31362422a67eac077b7089277ad179d376a9c
           path: controller
           persist-credentials: false
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -978,7 +978,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           repository: splrad/steward-e08-controller
-          ref: 7af90905aca445758da5b95948b2dfdfa2b5c911
+          ref: cdc31362422a67eac077b7089277ad179d376a9c
           path: controller
           persist-credentials: false
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -1133,7 +1133,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           repository: splrad/steward-e08-controller
-          ref: 7af90905aca445758da5b95948b2dfdfa2b5c911
+          ref: cdc31362422a67eac077b7089277ad179d376a9c
           path: controller
           persist-credentials: false
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
