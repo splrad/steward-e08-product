@@ -35,8 +35,8 @@
       "executionSha": "abb4db7a86fbc06ffcedf5dc10b127b5f25a1e6f",
       "sentAt": "2026-11-04T22:25:59.000Z",
       "searchWindows": [],
-      "canonicalRunId": null,
-      "nativeResponseEvidencePath": null,
+      "canonicalRunId": 41925254406,
+      "nativeResponseEvidencePath": "evidence/dispatch/26c5da8206a0d112e85aa439225733ef4ce5bed1da1f96d643d73e0387cc6c0e.json",
       "continuationOfRunId": null,
       "retryLimitEvidencePath": null
     }
