@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "splrad-e08-product"
-version = "0.1.3"
+version = "0.1.4"
 description = "Isolated SPLRAD E08 Python product acceptance package"
 readme = "PYTHON-PRODUCT.md"
 requires-python = ">=3.12"

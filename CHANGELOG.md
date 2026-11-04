@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/splrad/steward-e08-product/compare/047b30c1986625766a55725a9d12210900432202...v0.1.4) (2026-11-04)
+
+
+### Bug Fixes
+
+* adopt controller SBOM policy directory repair ([#13](https://github.com/splrad/steward-e08-product/issues/13)) ([93294b5](https://github.com/splrad/steward-e08-product/commit/93294b564128d2ac6e7ec19091830e62343a11c1))
+
 ## [0.1.3](https://github.com/splrad/steward-e08-product/compare/a5ad0f4b7503a29b442de0acc08ed8108a1276cb...v0.1.3) (2026-11-04)
 
 
