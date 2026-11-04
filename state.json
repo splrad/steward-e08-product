@@ -2,7 +2,7 @@
   "schemaVersion": 3,
   "repositoryId": 1440689534,
   "defaultBranch": "main",
-  "revision": 23,
+  "revision": 24,
   "releaseAdoption": {
     "sourceSha": "c14c0500b654075db1801176128b251e83e36b5d",
     "prNumber": 4
@@ -11,7 +11,7 @@
   "lastCompletedCycleId": null,
   "activeCycleId": "pr-6-85573ec5c163a94961f798295fdcd415204987f0",
   "candidate": null,
-  "nextCheckAt": "2026-11-04T18:20:18.000Z",
-  "lastProgressAt": "2026-11-04T17:20:37.598Z",
+  "nextCheckAt": null,
+  "lastProgressAt": "2026-11-04T17:21:10.138Z",
   "lastErrorCode": null
 }
