@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/splrad/steward-e08-product/compare/v0.1.0...v0.1.1) (2026-11-04)
+
+
+### Bug Fixes
+
+* adopt N1 controller and support long release-state paths ([#7](https://github.com/splrad/steward-e08-product/issues/7)) ([89270ec](https://github.com/splrad/steward-e08-product/commit/89270ecff9dbe34e12837394f631b63c786e0826))
+
 ## 0.1.0 (2026-11-04)
 
 
