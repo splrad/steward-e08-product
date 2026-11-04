@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling==1.33.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "splrad-e08-product"
+version = "0.0.0"
+description = "Isolated SPLRAD E08 Python product acceptance package"
+readme = "PYTHON-PRODUCT.md"
+requires-python = ">=3.12"
+classifiers = ["Private :: Do Not Upload"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/splrad_e08_product"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/splrad_e08_product", "pyproject.toml", "PYTHON-PRODUCT.md", "requirements-build.in", "requirements-build.txt"]
