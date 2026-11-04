@@ -2,7 +2,7 @@
   "schemaVersion": 3,
   "repositoryId": 1440689534,
   "defaultBranch": "main",
-  "revision": 38,
+  "revision": 39,
   "releaseAdoption": {
     "sourceSha": "c14c0500b654075db1801176128b251e83e36b5d",
     "prNumber": 4
@@ -21,9 +21,16 @@
     "contentGenerationDigest": "61e18410ee3d2052c66985e815c6299e3832001f8d8f5926510227b3600d6382",
     "adoptionOverride": null,
     "observedLabelEventIds": [],
-    "pendingWrite": null
+    "pendingWrite": {
+      "expectedHead": "d4dc64e58e05f389c6d20e9be2811390a332f389",
+      "proposedCommit": "7b1c6fee90ac950e46a9386154518389dfbc5117",
+      "newGeneratedSnapshotPath": "generated/256991bd02923402e6709137a231ec228b8bbacc8c2bc192636ab33ef88fa5a8/c2a906e95a72406e91b09b3b3733229a49663906b59d535dd30a21c3ee80fec2.json",
+      "newGeneratedDigest": "c2a906e95a72406e91b09b3b3733229a49663906b59d535dd30a21c3ee80fec2",
+      "operationKey": "5ded23fbc7f6a0c7bc5bf59622f32df6472689cb98d3741de9c320b2f41c4a1f",
+      "observedAt": "2026-11-04T19:59:12.658Z"
+    }
   },
   "nextCheckAt": null,
-  "lastProgressAt": "2026-11-04T19:58:46.498Z",
+  "lastProgressAt": "2026-11-04T19:59:12.658Z",
   "lastErrorCode": null
 }
