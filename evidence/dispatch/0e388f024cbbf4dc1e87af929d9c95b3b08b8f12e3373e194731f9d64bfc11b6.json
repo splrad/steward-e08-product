@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "repositoryId": 1440689534,
+  "cycleId": "pr-8-30df59daefed7b07f61962d432f0ce377a526900",
+  "requestKey": "682dc99dc9294ee5a5962e45b3a49da8abdf8a7cd23376f5e576d33a38103ceb",
+  "observedAt": "2026-11-04T18:52:35.732Z",
+  "kind": "RESPONSE",
+  "senderNonce": null,
+  "status": 200,
+  "response": {
+    "workflow_run_id": 41891442197,
+    "run_url": "https://api.github.com/repos/splrad/steward-e08-product/actions/runs/41891442197",
+    "html_url": "https://github.com/splrad/steward-e08-product/actions/runs/41891442197"
+  },
+  "run": {
+    "id": 41891442197,
+    "repositoryId": 1440689534,
+    "headRepositoryId": 1440689534,
+    "workflowId": 406050667,
+    "path": ".github/workflows/steward-release-publish.yml",
+    "event": "workflow_dispatch",
+    "headSha": "30df59daefed7b07f61962d432f0ce377a526900",
+    "headBranch": "steward/build/pr-8-30df59daefed7b07f61962d432f0ce377a526900",
+    "actorId": 350673636,
+    "triggeringActorId": 350673636,
+    "runAttempt": 1,
+    "status": "in_progress",
+    "conclusion": null,
+    "createdAt": "2026-11-04T18:52:43.000Z",
+    "updatedAt": "2026-11-04T18:52:48.000Z",
+    "displayTitle": "Build 9fbafba663adbb41d14d84302ea6de2ed9b021e14cea114991a955a28bfe92c7"
+  },
+  "window": null,
+  "pages": [],
+  "matches": [],
+  "errorCode": null,
+  "nextCheckAt": null
+}
