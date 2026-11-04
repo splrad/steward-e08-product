@@ -16,7 +16,31 @@
     }
   ],
   "requiredChannels": [],
-  "dispatches": [],
+  "dispatches": [
+    {
+      "requestKey": "755cb240852b83be61f4ef9f860e19dd273544e43fdb2be7cd49872ebbd6fdd6",
+      "operationKey": "99aae00fe018e04d4d9cc910b1d101e3cfa0983c98f277955765e8e954e64d94",
+      "purpose": "build",
+      "workflowId": 406050667,
+      "ref": "steward/build/pr-6-85573ec5c163a94961f798295fdcd415204987f0",
+      "sourceSha": "85573ec5c163a94961f798295fdcd415204987f0",
+      "targetKey": "[2,406050667,\"steward/build/pr-6-85573ec5c163a94961f798295fdcd415204987f0\",\"85573ec5c163a94961f798295fdcd415204987f0\",\"85573ec5c163a94961f798295fdcd415204987f0\",\"build\",\"build\",[[\"python\",\"0.1.0\"]]]",
+      "inputs": {
+        "cycle_id": "pr-6-85573ec5c163a94961f798295fdcd415204987f0",
+        "operation_key": "99aae00fe018e04d4d9cc910b1d101e3cfa0983c98f277955765e8e954e64d94",
+        "source_sha": "85573ec5c163a94961f798295fdcd415204987f0",
+        "controller_sha": "7af90905aca445758da5b95948b2dfdfa2b5c911"
+      },
+      "inputDigest": "cba482b29fa1867da406aac99ca89b85ac4362c663f22082585735ee499ff728",
+      "executionSha": "85573ec5c163a94961f798295fdcd415204987f0",
+      "sentAt": "2026-11-04T17:20:52.000Z",
+      "searchWindows": [],
+      "canonicalRunId": null,
+      "nativeResponseEvidencePath": null,
+      "continuationOfRunId": null,
+      "retryLimitEvidencePath": null
+    }
+  ],
   "publications": [],
   "channelFacts": [],
   "executionEvidence": [],
