@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/splrad/steward-e08-product/compare/a5ad0f4b7503a29b442de0acc08ed8108a1276cb...v0.1.3) (2026-11-04)
+
+
+### Bug Fixes
+
+* prepare Python metadata reader in release jobs ([4c0c828](https://github.com/splrad/steward-e08-product/commit/4c0c828c432109f8db2ecdd3589d5678836b0597))
+
 ## [0.1.2](https://github.com/splrad/steward-e08-product/compare/30df59daefed7b07f61962d432f0ce377a526900...v0.1.2) (2026-11-04)
 
 
