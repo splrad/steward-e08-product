@@ -162,9 +162,10 @@ jobs:
         shell: pwsh
         run: npm ci --ignore-scripts --no-audit --no-fund
       - name: Install locked native metadata reader
+        working-directory: controller
         shell: pwsh
         run: |
-          uv sync --project controller/tools/template --frozen --only-group release-inspection --no-build
+          uv sync --project tools/template --frozen --only-group release-inspection --no-build
           if ($LASTEXITCODE) { exit $LASTEXITCODE }
       - name: Read build record
         id: unit
@@ -296,9 +297,10 @@ jobs:
         shell: pwsh
         run: npm ci --ignore-scripts --no-audit --no-fund
       - name: Install locked native metadata reader
+        working-directory: controller
         shell: pwsh
         run: |
-          uv sync --project controller/tools/template --frozen --only-group release-inspection --no-build
+          uv sync --project tools/template --frozen --only-group release-inspection --no-build
           if ($LASTEXITCODE) { exit $LASTEXITCODE }
       - name: Read build record
         shell: pwsh
