@@ -1,0 +1,27 @@
+{
+  "id": "pr-6-85573ec5c163a94961f798295fdcd415204987f0",
+  "prNumber": 6,
+  "sourceSha": "85573ec5c163a94961f798295fdcd415204987f0",
+  "controllerSha": "7af90905aca445758da5b95948b2dfdfa2b5c911",
+  "deliveryConfigSha": "5a5a18fc8863ef355bdce6c70007daf706487fd6",
+  "units": [
+    {
+      "id": "python",
+      "version": "0.1.0",
+      "tag": "v0.1.0",
+      "releaseId": null,
+      "assets": [],
+      "notesDigest": null,
+      "manifestDigest": null
+    }
+  ],
+  "requiredChannels": [],
+  "dispatches": [],
+  "publications": [],
+  "channelFacts": [],
+  "executionEvidence": [],
+  "completionObservations": [],
+  "completedEvidencePath": null,
+  "repairOf": null,
+  "approvedRepairDecision": null
+}
