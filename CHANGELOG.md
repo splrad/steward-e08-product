@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.4](https://github.com/splrad/steward-e08-product/compare/v0.1.3...v0.1.4) (2026-11-04)
+## [0.1.4](https://github.com/splrad/steward-e08-product/compare/047b30c1986625766a55725a9d12210900432202...v0.1.4) (2026-11-04)
 
 
 ### Bug Fixes
