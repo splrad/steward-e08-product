@@ -81,8 +81,15 @@
   "publications": [],
   "channelFacts": [],
   "executionEvidence": [],
-  "completionObservations": [],
-  "completedEvidencePath": null,
+  "completionObservations": [
+    {
+      "inputSetDigest": "c2487c46bd7055559500e2d0329388b00be47e8bf322aa73d9e8fb6b4f312395",
+      "evidenceSetDigest": "6469d9800f60d7d7c24341fe4c790cffe0e49971c39fdeea5444dd1805beb7dc",
+      "observedAt": "2026-11-05T00:35:10.896Z",
+      "evidencePath": "evidence/completion/3c7eb1b0ee66c4359a185c455f738801c40103c55102e080b0a8292e34f51d2b.json"
+    }
+  ],
+  "completedEvidencePath": "evidence/completion/3c7eb1b0ee66c4359a185c455f738801c40103c55102e080b0a8292e34f51d2b.json",
   "repairOf": null,
   "approvedRepairDecision": null
 }
